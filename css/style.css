@@ -9,14 +9,26 @@ h1{
   font-weight: 900;
 }
 
-/******  IDs   *****/
+h3{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+/**********************************  IDs   *******************/
 
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
 
-/***** CLASS   *****/
+/* Features Section */
+#features{
+  padding: 7% 15%;
+}
+
+/********************************* CLASSES   ***************************/
 
 .container-fluid{
   padding: 3% 15%;
@@ -55,4 +67,19 @@ h1{
 .iphone{
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+.details{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
 }
