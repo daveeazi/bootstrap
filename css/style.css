@@ -3,10 +3,16 @@ body{
 }
 
 h1{
-  font-family: 'Montserrat-Black, sans-serif';
+  font-family: 'Montserrat-bold, sans-serif';
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+
+h2{
+  font-family: "Montserrat-bold, sans-serif";
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h3{
@@ -26,6 +32,21 @@ p{
 /* Features Section */
 #features{
   padding: 7% 15%;
+}
+
+/* Testimonial Section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* Press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4.5%;
 }
 
 /********************************* CLASSES   ***************************/
@@ -82,4 +103,18 @@ p{
 
 .icon:hover{
   color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+.testimonial-image{
+  width: 18%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
