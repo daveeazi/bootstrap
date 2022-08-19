@@ -2,22 +2,18 @@ body{
   font-family: Montserrat;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat-bold, sans-serif';
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
 }
 
-h2{
-  font-family: "Montserrat-bold, sans-serif";
+/* h2{
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-}
+} */
 
 h3{
-  font-weight: bold;
+  font-weight: 900;
 }
 
 p{
@@ -73,6 +69,13 @@ p{
 }
 
 /********************************* CLASSES   ***************************/
+
+.big-heading{
+  font-family: 'Montserrat-bold, sans-serif';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
 
 .container-fluid{
   padding: 3% 15% 7%;
@@ -168,6 +171,12 @@ p{
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 /* cta section */
