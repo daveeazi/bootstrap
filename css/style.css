@@ -58,6 +58,15 @@ p{
   text-align: center;
 }
 
+/* CTA Section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
 /********************************* CLASSES   ***************************/
 
 .container-fluid{
@@ -95,12 +104,26 @@ p{
 /* Iphone Image */
 
 .iphone{
-  max-width: 25%;
+  max-width: 55%;
   transform: rotate(25deg);
   position: absolute;
   z-index: 0;
   height: auto;
   right: 21.5%;
+}
+
+/* Media query breakpoint */
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* Features Section */
@@ -140,3 +163,12 @@ p{
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* cta section */
+
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
