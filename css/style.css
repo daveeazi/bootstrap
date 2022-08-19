@@ -67,6 +67,11 @@ p{
   text-align: center;
 }
 
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
 /********************************* CLASSES   ***************************/
 
 .container-fluid{
@@ -171,4 +176,8 @@ p{
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+.social-icon{
+  margin: 20px 10px;
 }
